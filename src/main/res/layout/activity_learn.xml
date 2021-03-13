@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnActivity">
+
+    <TextView
+        android:id="@+id/learnToTrade"
+        android:layout_width="207dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Learn to Trade"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="345dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="100dp"
+        android:text="PipTips is an all in one app for all of your FOREX needs. However, our learn page is currently underconstruction. Please check BabyPips.com to learn for now!"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/learnToTrade" />
+
+    <Button
+        android:id="@+id/OpenBabyPips"
+        android:layout_width="134dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/btn_rounded"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="open"
+        android:text="Go to BabyPips"
+        android:textColor="@color/design_default_color_on_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
